@@ -361,4 +361,3 @@ Feel free to explore the repository and check out my other AI/ML projects.
 </div>
 
 
-Ek cheez abhi **mat add karna**: GitHub Stats, trophies, random badges, 20 animated GIFs. Ye project ka README **clean aur professional** rehne do.
