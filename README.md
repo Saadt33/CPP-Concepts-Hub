@@ -1,5 +1,3 @@
-
-````markdown
 # 💻 C++ Concepts Hub
 
 <p align="center">
@@ -13,7 +11,7 @@
 </p>
 
 <p align="center">
-  <b>A menu-driven C++ console application built to demonstrate core programming concepts through practical implementation.</b>
+  <b>A menu-driven C++ console application demonstrating core programming concepts through practical implementation.</b>
 </p>
 
 ---
@@ -22,11 +20,11 @@
 
 **C++ Concepts Hub** is a practical **Programming Fundamentals** project developed during my **BS in Artificial Intelligence**.
 
-The application brings multiple C++ concepts together into one interactive, menu-driven console program.
+This interactive console application combines multiple C++ concepts into one menu-driven program.
 
-The project focuses on practical implementation of programming logic, control flow, functions, arrays, pointers, structures, and problem-solving.
+The project focuses on programming logic, control flow, functions, arrays, pointers, structures, and problem-solving.
 
-> 🎯 **Goal:** Build a strong programming foundation before progressing toward advanced areas of Artificial Intelligence.
+> 🎯 **Goal:** Build a strong programming foundation before progressing toward advanced Artificial Intelligence.
 
 ---
 
@@ -51,176 +49,135 @@ The project focuses on practical implementation of programming logic, control fl
 
 ## 🎮 Interactive Menu
 
-```text
-╔══════════════════════════════════════════╗
-║          🚀 C++ CONCEPTS HUB             ║
-╠══════════════════════════════════════════╣
-║                                          ║
-║   1. Arrays (1D & 2D)                    ║
-║   2. Loops                               ║
-║   3. Conditional Statements              ║
-║   4. Functions                           ║
-║   5. Pointers                            ║
-║   6. Structures                          ║
-║   7. Nested Loops & Conditions           ║
-║   0. Exit                                ║
-║                                          ║
-╚══════════════════════════════════════════╝
-````
+**Main Menu**
+
+- 📊 Arrays — 1D & 2D
+- 🔁 Loops — for, while, do-while
+- 🔀 Conditional Statements — if, else-if, switch
+- 🧩 Functions — parameters and return values
+- 📍 Pointers — addresses, references and dereferencing
+- 🏗️ Structures — custom data organization
+- 🌀 Nested Loops & Conditions
+- 🚪 Exit
 
 ---
 
 ## 🗺️ Application Flow
 
-```text
-                    ┌──────────────────┐
-                    │   C++ CONCEPTS   │
-                    │       HUB        │
-                    └────────┬─────────┘
-                             │
-                     ┌───────▼───────┐
-                     │   Main Menu   │
-                     └───────┬───────┘
-                             │
-          ┌──────────────────┼──────────────────┐
-          │                  │                  │
-          ▼                  ▼                  ▼
-      ┌────────┐        ┌─────────┐       ┌────────────┐
-      │ Arrays │        │  Loops  │       │ Conditions │
-      └────────┘        └─────────┘       └────────────┘
-          │                  │                  │
-          └──────────────────┼──────────────────┘
-                             │
-              ┌──────────────┼──────────────┐
-              │              │              │
-              ▼              ▼              ▼
-         Functions       Pointers       Structures
-              │              │              │
-              └──────────────┼──────────────┘
-                             │
-                       ┌─────▼─────┐
-                       │   Exit    │
-                       └───────────┘
-```
+<p align="center">
+  <b>Application → Main Menu → Select Concept → Execute Example → Return to Menu</b>
+</p>
+
+<table>
+<tr>
+<td align="center">📊<br><b>Arrays</b></td>
+<td align="center">🔁<br><b>Loops</b></td>
+<td align="center">🔀<br><b>Conditions</b></td>
+<td align="center">🧩<br><b>Functions</b></td>
+</tr>
+<tr>
+<td align="center">📍<br><b>Pointers</b></td>
+<td align="center">🏗️<br><b>Structures</b></td>
+<td align="center">🔢<br><b>Data Types</b></td>
+<td align="center">🌀<br><b>Nested Logic</b></td>
+</tr>
+</table>
 
 ---
 
 ## 🛠️ Tech Stack
 
-<p align="left">
-<img src="https://skillicons.dev/icons?i=cpp,vscode,git,github" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,vscode,git,github" />
 </p>
 
-* **Language:** C++
-* **Compiler:** GCC / g++
-* **IDE:** Visual Studio Code / Code::Blocks
-* **Application:** Console Application
+| Category | Technology |
+|---|---|
+| Language | C++ |
+| Compiler | GCC / g++ |
+| IDE | Visual Studio Code / Code::Blocks |
+| Application | Console Application |
+| Version Control | Git & GitHub |
 
 ---
 
 ## ⚙️ Run Locally
 
-### Clone the repository
+### Clone
 
-```bash
-git clone https://github.com/Saadt33/CPP-Concepts-Hub.git
-```
+    git clone https://github.com/Saadt33/CPP-Concepts-Hub.git
 
-### Open the project
+### Open Project
 
-```bash
-cd CPP-Concepts-Hub
-```
+    cd CPP-Concepts-Hub
 
 ### Compile
 
-```bash
-g++ main.cpp -o menu
-```
+    g++ main.cpp -o menu
 
 ### Run on Windows
 
-```bash
-menu.exe
-```
+    menu.exe
 
 ### Run on Linux / macOS
 
-```bash
-./menu
-```
+    ./menu
 
 ---
 
 ## 📂 Project Structure
 
-```text
-CPP-Concepts-Hub/
-│
-├── main.cpp
-└── README.md
-```
-
----
-
-## 📚 Learning Journey
-
-This project helped me strengthen the programming fundamentals that form the foundation of software development and AI engineering.
-
-```text
-C++ Fundamentals
-       ↓
-Programming Logic
-       ↓
-Problem Solving
-       ↓
-Data Structures & Algorithms
-       ↓
-Machine Learning
-       ↓
-Deep Learning
-       ↓
-Generative AI
-       ↓
-AI Engineering 🚀
-```
+    CPP-Concepts-Hub/
+    │
+    ├── main.cpp
+    └── README.md
 
 ---
 
 ## 💡 Key Takeaways
 
-* Writing structured C++ programs
-* Designing menu-driven applications
-* Using loops and conditional logic
-* Working with 1D and 2D arrays
-* Creating reusable functions
-* Understanding pointers and memory references
-* Using structures to organize data
-* Combining multiple concepts into one application
-* Improving logical thinking and problem-solving
+Through this project I practiced:
+
+- Writing structured C++ programs
+- Designing menu-driven applications
+- Using loops and conditional logic
+- Working with 1D and 2D arrays
+- Creating reusable functions
+- Understanding pointers and memory references
+- Using structures to organize data
+- Combining multiple programming concepts
+- Improving logical thinking and problem-solving
+
+---
+
+## 📚 Learning Journey
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&center=true&vCenter=true&width=600&lines=C%2B%2B+Fundamentals+%E2%86%92+Problem+Solving;Problem+Solving+%E2%86%92+Data+Structures;Data+Structures+%E2%86%92+Machine+Learning;Machine+Learning+%E2%86%92+AI+Engineering" />
+</p>
 
 ---
 
 ## 🔮 Future Improvements
 
-* File Handling
-* Input Validation
-* Exception Handling
-* Object-Oriented Programming
-* Classes & Objects
-* Inheritance
-* Polymorphism
-* Modular Source Files
-* Unit Testing
-* Improved Console UI
+- 📁 File Handling
+- ✅ Input Validation
+- ⚠️ Exception Handling
+- 🧱 Object-Oriented Programming
+- 🏗️ Classes & Objects
+- 🧬 Inheritance
+- 🔄 Polymorphism
+- 📦 Modular Source Files
+- 🧪 Unit Testing
+- 🎨 Improved Console UI
 
 ---
 
 ## 🎓 Academic Context
 
-**Course:** Programming Fundamentals
-**Language:** C++
-**Degree:** BS Artificial Intelligence
+**Course:** Programming Fundamentals  
+**Language:** C++  
+**Degree:** BS Artificial Intelligence  
 **Project Type:** Academic / Learning Project
 
 This project represents an early step in my journey from programming fundamentals toward **AI/ML Engineering**.
@@ -230,7 +187,7 @@ This project represents an early step in my journey from programming fundamental
 ## 👨‍💻 About Me
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Muhammad+Saad+Bin+Zubair+%F0%9F%91%8B;BS+Artificial+Intelligence+Student;Aspiring+AI%2FML+Engineer;Building+Real-World+AI+Systems" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=600&lines=Muhammad+Saad+Bin+Zubair;BS+Artificial+Intelligence+Student;Aspiring+AI%2FML+Engineer;Building+Real-World+AI+Systems" />
 </p>
 
 I'm **Muhammad Saad Bin Zubair**, a BS Artificial Intelligence student focused on building practical skills in:
@@ -258,8 +215,7 @@ My goal is to build **real-world AI systems** and grow as an **AI/ML Engineer**.
 ---
 
 <p align="center">
-<b>🚀 Learn → Build → Improve → Repeat</b>
-<br>
-From C++ Fundamentals → AI Engineering
+  <b>🚀 Learn → Build → Improve → Repeat</b>
+  <br>
+  C++ Fundamentals → AI Engineering
 </p>
-```
