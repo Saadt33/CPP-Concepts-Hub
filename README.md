@@ -1,4 +1,4 @@
-# 💻 C++ Concepts Hub 
+# 💻 C++ Concepts Hub  
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00ADD8&center=true&vCenter=true&width=650&lines=C%2B%2B+Programming+Fundamentals;Arrays+%7C+Loops+%7C+Functions+%7C+Pointers;Building+Strong+Programming+Foundations" alt="Typing Animation" />
